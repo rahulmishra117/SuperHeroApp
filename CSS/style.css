@@ -1,8 +1,9 @@
+/* /////////////Styling the navbar //////////////// */
+
 .navbar{
     background: linear-gradient(45deg,rgb(44, 16, 97),rgb(30, 9, 148));
     
 }
-
 
 .parent-container{
     display: flex;
@@ -10,7 +11,7 @@
 .container button{
     padding: auto;
 }
-/*  */
+/*  Carousel Stying */
 #carouselExampleCaptions{
     background-color:orangered;
     height: 500px;
@@ -29,6 +30,8 @@
     font-weight: bold;
 
 }
+
+/* Styling of Marvel hero card */
 
 .hero-card{
     padding-top: 40px;
@@ -50,10 +53,7 @@
     padding-top: 10%;
 }
 
-.navbar1{
-    background: linear-gradient(45deg,rgb(231, 230, 227),rgb(207, 200, 200));
-}
-
+/* Styling the Image of Button section which contain the Marvel and Dc */
 .col-sm-6 img{
     height: 150px;
     width: 350px;

@@ -1,9 +1,11 @@
+// File return the page result
 const Main=(function(){
     const searchBox=document.getElementById('search');
     const searchList=document.getElementById('search-results-list');
     let searchResults=[];
     const SEARCH_TEXT_LIMT=2;
 
+    // Rendering all superhero result
     function renderSearchResults()
     {
         if(!searchResults || searchResults.length ===0)
@@ -39,6 +41,8 @@ const Main=(function(){
             searchList.appendChild(li);
         });
     }
+// Empty the search result.........
+
     function emptySearchResults()
     {
         searchList.innerHTML='';

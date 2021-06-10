@@ -1,3 +1,5 @@
+// Commonjs file contain Api and Token of the SuperheroApp
+
 const Common=(function(){
     const apiToken='2525910377721194';
     const apiUrl=`https://www.superheroapi.com/api.php/${apiToken}/`;
@@ -12,6 +14,7 @@ const Common=(function(){
         loader.style.display='none';
     }
 
+// Show the notification
 
     function showNotification(type,message){
         if(type=='error'){
@@ -46,7 +49,7 @@ const Common=(function(){
                 }
             }
         }
-
+// Adding the hero to Add hero page
         function addHeroToFavourites(hero)
         {
             if(!hero)return ;
@@ -58,7 +61,7 @@ const Common=(function(){
                 );
              showNotification('success','Added to favourits');   
         }
-
+// Remove the hero page form the list
         function removeHeroFromFavourites(heroId)
         {
             if(!heroId)return ;
@@ -90,7 +93,7 @@ const Common=(function(){
                 },delay);
             };
         }
-
+// Return all the Page request......................
         return {
             apiRequest,
             apiUrl,

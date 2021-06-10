@@ -1,3 +1,8 @@
+/* Styling of the Following Section */
+/* /////////////////////////// */
+/* Favourites , home ,superhero Part of the App */
+
+
 * {
     font-family: 'Poppins';
 }
@@ -6,12 +11,15 @@ html {
     height: 100%;
 }
 
+/* Body Styling the page */
 body {
     margin: 0;
-    background: linear-gradient(45deg,rgb(109, 0, 119),rgb(14, 47, 139));    
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/51iUqOf%2BaRL.jpg");
+    /* background: linear-gradient(45deg,rgb(109, 0, 119),rgb(14, 47, 139));     */
       
 }
 
+/* Styling with nav */
 nav {
     background: linear-gradient(45deg,rgb(135, 101, 197),rgb(139, 125, 216));
     border-bottom: 1px solid #e5e5e5;
@@ -86,7 +94,7 @@ ul {
     border-radius: 25px;
 }
 
-
+/* Search Box Styling  */
 .search-left img {
     height: 170px;
 }
@@ -183,7 +191,7 @@ ul {
 }
 
 .super-hero-detail .power-stats div {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 5px 20px;
     margin-top: 10px;
     display: flex;

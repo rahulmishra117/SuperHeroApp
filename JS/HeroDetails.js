@@ -1,3 +1,5 @@
+// File containt the all the Superhero Result
+
 const SuperHero =(function(){
     const superHeroDetailContainer=document.querySelector('.super-hero-detail');
 

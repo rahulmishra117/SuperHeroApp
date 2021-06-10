@@ -1,3 +1,5 @@
+// List of superhero favourites
+
 const Favourites =(function(){
     const searchList=document.getElementById('search-results-list');
     function renderFavourites(){
@@ -30,7 +32,7 @@ const Favourites =(function(){
         Common.hideLoader();
         return;
     }
-
+// Handle document Click
     function handleDocumentClick(e){
         const target=e.target;
         if(target.classList.contains('remove-from-fav')){
