@@ -5,6 +5,8 @@
 
 # SUPERHERO API :- https://superheroapi.com/?ref=apilist.fun
 
+# Hosted Link : https://rahulmishra117.github.io/SuperHeroApp/index.html
+
 ## Features
 1:- Search any superhero from the API and display the search results on the frontend (as I type the search results should update, just like Google does for suggestions).
 Each search result of the superhero should have a favourite button, clicking on which the superhero should be added to “My favourite superheroes” (a list).
