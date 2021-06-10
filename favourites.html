@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="./CSS/stylehero.css" rel="stylesheet" />
+    <title>Favourites</title>
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <button type="button" class="btn btn-danger"><a  style="text-decoration: none;" href="index.html"><p style="color: white;">SuperheroJS</p></a></button>
+        </div>
+        <div class="right">
+            <a href="favourites.html" class="link">Favourites</a>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div class="loader"></div>
+
+        <ul id="search-results-list"></ul>
+    </main>
+    <div id="toast"></div>
+
+    
+    <script src="./JS/common.js"></script>
+    <script src="./JS/favourites.js"></script>
+
+    <script>
+        Favourites.init();
+    </script>
+</body>
+
+</html>
